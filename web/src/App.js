@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components';
+import { theme, General } from 'Styles';
+import Login from 'Pages/login';
+import Library from 'Pages/library';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<ThemeProvider theme={theme}>
+			<General>
+				<Router>
+					<Switch>
+						<Route path='/' component={Login} />
+						<Route path='/library' component={Library} />
+					</Switch>
+				</Router>
+			</General>
+		</ThemeProvider>
+	);
+};
 
 export default App;

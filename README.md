@@ -1,9 +1,26 @@
 # Livraria SoftDesign
 ### Teste Front end Soft
 
+##How to Start
+Requisitos:
+- Node
+- npm ou yarn
+
+Executar:
+ - em `cd web` executar:
+```
+    - npm install
+    - npm start
+```
+ - se for executar o build pro projeto compilado, 
+
+ - projeto executa em localhost:3000
+
+- uso o **jsconfig** pra definir o root dos imports no src. Verifique se o IDE pega as configs.
+
 Funcionalidades:
 1) Login
- - [ ] Tela inicial deve ser o login
+ - [x] Tela inicial deve ser o login
  - [ ] Não deve ser possível acessar outras telas sem realizar o login
 2) Lista de livros
  - [ ] Exibir uma lista com todos os livros cadastrados, com opção para pesquisa
