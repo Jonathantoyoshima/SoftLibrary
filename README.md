@@ -1,22 +1,29 @@
 # Livraria SoftDesign
 ### Teste Front end Soft
 
-##How to Start
+## How to Start
 Requisitos:
 - Node
 - npm ou yarn
 
-Executar:
+Desenvolvimento:
  - em `cd web` executar:
 ```
     - npm install
-    - npm start
+    - npm run start
 ```
- - se for executar o build pro projeto compilado, 
-
  - projeto executa em localhost:3000
 
-- uso o **jsconfig** pra definir o root dos imports no src. Verifique se o IDE pega as configs.
+ - uso o **jsconfig** pra definir o root dos imports no src. Verifique se o IDE pega as configs.
+
+ Teste:
+ - em `cd web` executar:
+```
+    - npm run test
+```
+ - projeto executa em localhost:3000
+
+ - uso o **jsconfig** pra definir o root dos imports no src. Verifique se o IDE pega as configs.
 
 Funcionalidades:
 1) Login
