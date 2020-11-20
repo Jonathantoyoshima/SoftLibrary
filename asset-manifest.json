@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/softlibrary/static/js/main.531c4b43.chunk.js",
+    "main.js.map": "/softlibrary/static/js/main.531c4b43.chunk.js.map",
+    "runtime-main.js": "/softlibrary/static/js/runtime-main.8a6b8d6b.js",
+    "runtime-main.js.map": "/softlibrary/static/js/runtime-main.8a6b8d6b.js.map",
+    "static/js/2.5804f484.chunk.js": "/softlibrary/static/js/2.5804f484.chunk.js",
+    "static/js/2.5804f484.chunk.js.map": "/softlibrary/static/js/2.5804f484.chunk.js.map",
+    "index.html": "/softlibrary/index.html",
+    "static/js/2.5804f484.chunk.js.LICENSE.txt": "/softlibrary/static/js/2.5804f484.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a6b8d6b.js",
+    "static/js/2.5804f484.chunk.js",
+    "static/js/main.531c4b43.chunk.js"
+  ]
+}
