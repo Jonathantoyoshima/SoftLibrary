@@ -1,5 +1,5 @@
 import { Button, Input, Wrapper } from 'Styles';
-import { InputGroup } from 'Styles/login';
+import { InputGroup } from './styles';
 
 const Login = () => {
 	return (

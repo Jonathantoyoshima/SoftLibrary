@@ -26,18 +26,25 @@ export const General = styled.div`
 `;
 
 export const Wrapper = styled.div`
-	min-width: 100vw;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 	color: ${(props) => props.theme.color.basic.white};
 	background-color: ${(props) =>
 		props.theme.color.secondary.dark};
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+	position: relative;
+	width: 100%;
+	max-width: 1080px;
+	min-height: 100vh;
+	padding: 0 16px;
+	box-sizing: border-box;
+`;
 
 export const Button = styled.button`
 	padding: 15px 50px;

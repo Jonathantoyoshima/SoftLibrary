@@ -1,29 +1,29 @@
-import {
-	Container,
-	Button,
-	Input,
-	Wrapper,
-} from 'Styles';
-import {
-	InputGroup,
-} from 'Styles/login';
+import { Container, Wrapper } from 'Styles';
+import { List, Title } from './styles';
+import Card from 'Components/Card';
+import SearchBar from 'Components/SearchBar';
 
-const Login = () => {
+const Library = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<InputGroup>
-					<label htmlFor='User'>Usuário: </label>
-					<Input type='text' id='User' />
-				</InputGroup>
-				<InputGroup>
-					<label htmlFor='pass'>Senha:</label>
-					<Input type='password' id='pass' />
-				</InputGroup>
-				<Button>Login</Button>
+				<SearchBar />
+				<Title>Lista dos Livros:</Title>
+				<List>
+					<Card
+						title={'Dom Casmurro'}
+						link={'/dom-casmurro'}
+					/>
+					<Card title={'Moreninha'} link={'/moreninha'} />
+					<Card
+						title={'Primo Basílio'}
+						link={'/primo-basilio'}
+					/>
+					<Card title={'Lusíadas'} link={'/lusiadas'} />
+				</List>
 			</Container>
 		</Wrapper>
 	);
 };
 
-export default Login;
+export default Library;
