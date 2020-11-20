@@ -12,7 +12,7 @@ const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<General>
-				<Router>
+				<Router basename={"/SoftLibrary"}>
 					<Switch>
 						<Route path='/library' component={Library} />
 						<Route path='/' component={Login} />
